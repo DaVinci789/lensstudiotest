@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/2fedd1c9-9fe6-4468-8b2b-630bead780a1>
+  ImportedAssetIds:
+    RenderTarget: !<reference> 271c928f-d634-4caf-ae07-54db6d8ab826
+  ImporterName: RenderTargetImporter
+  PrimaryAsset: !<reference> 271c928f-d634-4caf-ae07-54db6d8ab826
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/1e209b36-d50b-407d-ad82-bec7f2e88492>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/276c65d7-a336-4e96-8086-00a4e90d3c0d>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 51dd46a9-b3c9-417f-9f63-f1101744dac2
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 51dd46a9-b3c9-417f-9f63-f1101744dac2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4965fac8-af3e-4e78-a051-a2156402116f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/080b367e-a371-4f4f-bbfa-fb952e773e1f>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4965fac8-af3e-4e78-a051-a2156402116f>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    accurateScaleItem: false
+    camera: false
+    edgeSprings: false
+    endlessSurfaces: false
+    initialCamera: false
+    objectPointer: false
+    searchMessage: false
+    shadowPlane: false
+    worldMesh: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - endlessSurfaces: false
+      edgeSprings: false
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      initialCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      searchMessage: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      accurateScaleItem: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      worldMesh: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shadowPlane: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectPointer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

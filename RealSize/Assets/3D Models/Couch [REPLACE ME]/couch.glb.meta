@@ -1,0 +1,155 @@
+- !<AssetImportMetadata/9ec179cc-70ba-4399-87ac-c3b9ec92fe13>
+  ImportedAssetIds:
+    .hidden/couch_texture: !<reference> bc5d45ca-5913-407e-a0dd-59b79092b3cc
+    Materials/couch_texture: !<reference> 87bc9b4e-852a-489c-8b25-3119eb6e64d5
+    Materials/couch_texture|couch_texture|GraphPassInfo: !<reference> 935dd49c-7f9a-44c3-95d3-c28ed53242a0
+    Meshes/couch: !<reference> ad3ee651-6e82-4fcb-879c-4bbc0ff1b302
+    Scene: !<reference> ea6a30da-1ec7-45d5-9463-7ca72ad6d4e9
+    Textures/model0: !<reference> a2d7b5cf-adb1-4bad-b21e-027e242d44b0
+    Textures/model1: !<reference> 515a52a5-cc20-44e1-a18f-ec1cf9ac6c61
+    Textures/model2: !<reference> fe30baa4-e58d-48d3-8043-5f62d20127cf
+    _3DSceneImportRoot_0|: !<reference> e1527f6b-4901-4717-aaee-6be4d5528dd0
+    _3DSceneImportRoot_0|_Scenes_0|: !<reference> aada2b5a-4cff-430f-9b9c-bb91edb142b5
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|: !<reference> cebac38f-6c75-42cd-bb34-b8a19c3b2ec7
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_AnimationPlayer_0|: !<reference> e84d9cfc-d557-42cc-ae5f-87b431b0e563
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_couch_0|: !<reference> e640cff2-e42e-47e7-99cb-2aa362d7a57f
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_couch_0|_RenderMeshVisual_0|: !<reference> 53675491-640a-47a5-8e0a-07c1bb9542ee
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> ea6a30da-1ec7-45d5-9463-7ca72ad6d4e9
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 5b2979c5-6252-40ef-8e70-f4d89721b58e
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings/36f93711-cd46-441e-bd59-d5e6cf820de5>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategory
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    PersistentIdGenerationAlgorithm: Legacy
+  CompressionSettings: !<ComplexCompressionSettings/bc705444-dafb-4afd-87b2-a1304ae0cf18>
+    Presets:
+      None Compression: !<SingleCompressionSettings/bbf8c446-e079-4541-8198-a6d32f54d225>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/b180b616-d616-45e2-acc9-19e6bf623432>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/4dcb8869-4c16-4a30-94d9-58c71dda0c46>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpeg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/37ae0692-29c6-4ac5-93e6-38e869036b29>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d9d25795-eec2-4a4a-894d-6e4b5d2560d0
+  Components:
+    []
+- !<ObjectPrefab/3ea3d8e0-6518-4610-ac55-a62042beef4f>
+  PackagePath: ""
+  objects:
+    - !<own> df94490c-56e0-403f-a2a2-5bc267533ea9
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/5b2979c5-6252-40ef-8e70-f4d89721b58e>
+  SourceRemaps:
+    - 53675491-640a-47a5-8e0a-07c1bb9542ee: 7a86b9ac-f64c-4468-a994-0a1494150a15
+    - 57a20374-cbf4-4316-b1ad-a9775f157071: 040e5999-cbaf-4ac6-b445-4c4cb0ced911
+    - aada2b5a-4cff-430f-9b9c-bb91edb142b5: 37ae0692-29c6-4ac5-93e6-38e869036b29
+    - cebac38f-6c75-42cd-bb34-b8a19c3b2ec7: d9d25795-eec2-4a4a-894d-6e4b5d2560d0
+    - e1527f6b-4901-4717-aaee-6be4d5528dd0: df94490c-56e0-403f-a2a2-5bc267533ea9
+    - e640cff2-e42e-47e7-99cb-2aa362d7a57f: 7ac47bec-2a0d-4506-a5ee-628773cb22ce
+    - e84d9cfc-d557-42cc-ae5f-87b431b0e563: 955f4fc9-b399-48ec-9aca-b01e3382857c
+  SourceState: !<own> 3ea3d8e0-6518-4610-ac55-a62042beef4f
+- !<RenderMeshVisual/7a86b9ac-f64c-4468-a994-0a1494150a15>
+  PrefabRemaps:
+    []
+  Name: couch
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 87bc9b4e-852a-489c-8b25-3119eb6e64d5
+  Mesh: !<reference> ad3ee651-6e82-4fcb-879c-4bbc0ff1b302
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7ac47bec-2a0d-4506-a5ee-628773cb22ce>
+  PrefabRemaps:
+    []
+  Name: couch
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7a86b9ac-f64c-4468-a994-0a1494150a15
+- !<AnimationPlayer/955f4fc9-b399-48ec-9aca-b01e3382857c>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<SceneObject/d9d25795-eec2-4a4a-894d-6e4b5d2560d0>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7ac47bec-2a0d-4506-a5ee-628773cb22ce
+  Components:
+    - !<own> 955f4fc9-b399-48ec-9aca-b01e3382857c
+- !<SceneObject/df94490c-56e0-403f-a2a2-5bc267533ea9>
+  PrefabRemaps:
+    []
+  Name: couch
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 37ae0692-29c6-4ac5-93e6-38e869036b29
+  Components:
+    []

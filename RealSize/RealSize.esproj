@@ -1,0 +1,36 @@
+studioVersion:
+  major: 5
+  minor: 1
+  patch: 1
+  build: 24092500
+updateCheckpoint: 48
+sceneId: 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
+viewConfig:
+  simulation:
+    device: No Simulation
+    cameraFov: 66.519997
+    fullFrameAspect: nan
+    viewport: Maximized
+    output: Live
+    stereoOutputEye: Center
+    deviceTypeOverride: Unknown
+  cameraType: Back
+metaInfo:
+  hints:
+    []
+  tags:
+    []
+  lensName: True Size Object
+  lensDescriptors:
+    []
+  lensApplicability:
+    - Back
+  lensClientCompatibilities:
+    - Mobile
+    - Web
+  iconHash: 97a2ae0bde30bd52000f41e2c5a8343c
+  videoPreviewHash: ""
+  fromTemplateName: True Size Object
+  fromTemplateUrl: Lens Studio 5.1.1.24092500
+  activationCamera: Rear
+  sourceMapEnabled: false

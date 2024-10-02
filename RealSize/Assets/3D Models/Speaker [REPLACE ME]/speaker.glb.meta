@@ -1,0 +1,155 @@
+- !<AssetImportMetadata/155da2e4-b625-4f4d-846a-47938614c0e7>
+  ImportedAssetIds:
+    .hidden/Speaker: !<reference> 0d79ecb6-5b98-41fa-b9d5-0c3db8ff4525
+    Materials/Speaker: !<reference> 84021e0c-c967-45f5-b51d-2f2a3be9ecc4
+    Materials/Speaker|Speaker|GraphPassInfo: !<reference> 27c5fc6a-ae85-46cb-abe6-b576af720400
+    Meshes/Untitled_speaker: !<reference> 20f85467-09aa-4c09-9c35-d0bf153edbbd
+    Scene: !<reference> bbe3cc7b-9ab2-42e0-9dc4-f57daa83c0f6
+    Textures/model0: !<reference> c317f498-2759-4a44-817c-d18991eca482
+    Textures/model1: !<reference> 11f0e428-bad8-4a7a-9bb3-db2387bd66e2
+    Textures/model2: !<reference> d797408d-e36e-46c9-b2a5-a8dfceb2a7b4
+    _3DSceneImportRoot_0|: !<reference> f1909b61-357c-460e-8de5-3dbb3e16bf69
+    _3DSceneImportRoot_0|_Scenes_0|: !<reference> 9f9e9cf4-1d50-49aa-8f1a-502bf70e8505
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|: !<reference> 1f5608ce-7f00-4a3e-8cab-8fed19102c0e
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_AnimationPlayer_0|: !<reference> 28012525-7b38-4b51-8435-21021c7d4e4c
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_Untitled_speaker_0|: !<reference> d1d4a00a-9860-424e-8c11-b8320e947cd4
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_Untitled_speaker_0|_RenderMeshVisual_0|: !<reference> 51444c1e-521c-4d49-8147-1e06ebcf7140
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> bbe3cc7b-9ab2-42e0-9dc4-f57daa83c0f6
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 6032557e-6d78-4859-92d3-221deaafa23e
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings/8a1d67b0-4f37-4874-bd21-0ddd970b5587>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategory
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    PersistentIdGenerationAlgorithm: Legacy
+  CompressionSettings: !<ComplexCompressionSettings/72d305a5-4130-46de-b9ab-66c8ad5fc875>
+    Presets:
+      None Compression: !<SingleCompressionSettings/748ab721-bac7-481e-bf98-17ce8faebd86>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/24859c8d-27a0-4b3d-a5ca-7bdf4421209c>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/b2322357-b499-483b-ac32-ef95c54caa02>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpeg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/22f706aa-05d8-4312-ae82-28b021f5c592>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5a09118c-2038-4467-9d16-09a840732e97
+  Components:
+    []
+- !<SceneObject/2984205e-3d88-40f2-81a4-38d20b25170e>
+  PrefabRemaps:
+    []
+  Name: Untitled_speaker
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.124189, y: 0.124189, z: 0.124189}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> db1a2a43-372c-4d4f-98de-84f53306d5db
+- !<SceneObject/5a09118c-2038-4467-9d16-09a840732e97>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2984205e-3d88-40f2-81a4-38d20b25170e
+  Components:
+    - !<own> a17c1f66-2de2-4809-bfef-bf2c7fdf72fb
+- !<ObjectPrefabAssetData/6032557e-6d78-4859-92d3-221deaafa23e>
+  SourceRemaps:
+    - 1f5608ce-7f00-4a3e-8cab-8fed19102c0e: 5a09118c-2038-4467-9d16-09a840732e97
+    - 28012525-7b38-4b51-8435-21021c7d4e4c: a17c1f66-2de2-4809-bfef-bf2c7fdf72fb
+    - 51444c1e-521c-4d49-8147-1e06ebcf7140: db1a2a43-372c-4d4f-98de-84f53306d5db
+    - 99bd034d-e8e4-4e64-abc6-621b8d5c69df: ea74d29c-fe66-44aa-b5c4-24f8742bacf5
+    - 9f9e9cf4-1d50-49aa-8f1a-502bf70e8505: 22f706aa-05d8-4312-ae82-28b021f5c592
+    - d1d4a00a-9860-424e-8c11-b8320e947cd4: 2984205e-3d88-40f2-81a4-38d20b25170e
+    - f1909b61-357c-460e-8de5-3dbb3e16bf69: facb4b21-5cb6-4089-87b4-8fff83cc78eb
+  SourceState: !<own> c0c87a07-7d8b-49cd-a37a-7db718ccc020
+- !<AnimationPlayer/a17c1f66-2de2-4809-bfef-bf2c7fdf72fb>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefab/c0c87a07-7d8b-49cd-a37a-7db718ccc020>
+  PackagePath: ""
+  objects:
+    - !<own> facb4b21-5cb6-4089-87b4-8fff83cc78eb
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/db1a2a43-372c-4d4f-98de-84f53306d5db>
+  PrefabRemaps:
+    []
+  Name: Untitled_speaker
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 84021e0c-c967-45f5-b51d-2f2a3be9ecc4
+  Mesh: !<reference> 20f85467-09aa-4c09-9c35-d0bf153edbbd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/facb4b21-5cb6-4089-87b4-8fff83cc78eb>
+  PrefabRemaps:
+    []
+  Name: speaker
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 22f706aa-05d8-4312-ae82-28b021f5c592
+  Components:
+    []

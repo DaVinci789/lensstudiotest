@@ -1,0 +1,155 @@
+- !<AssetImportMetadata/76fd350b-2530-4a8a-846f-8659f61f02b0>
+  ImportedAssetIds:
+    .hidden/StingrayPBS1: !<reference> 39ceaff4-159a-4f45-943a-0d7e8448f416
+    Materials/StingrayPBS1: !<reference> e1a4ba2d-d059-4d30-a0b5-161b42fa5b95
+    Materials/StingrayPBS1|StingrayPBS1|GraphPassInfo: !<reference> 82ca0405-fa69-4d7c-a233-b3e5e7dbb9d8
+    Meshes/chair_2: !<reference> f33941e2-b82f-404d-88e7-55b1c7667d15
+    Scene: !<reference> c65c84b1-e367-4690-98de-e28fc1abe7d0
+    Textures/model0: !<reference> bc5874e0-46a4-4e28-a4f3-eea8b4982bf5
+    Textures/model1: !<reference> eb03fd43-526e-4e37-91f1-8ac6e9735c10
+    Textures/model2: !<reference> 58f1f595-9ee7-41a3-a62d-7e4816dd6a4c
+    _3DSceneImportRoot_0|: !<reference> cfc3d488-d1c1-4986-a8f2-65d00ae44a44
+    _3DSceneImportRoot_0|_Scenes_0|: !<reference> 9644367b-d714-4d21-b4eb-df0787f19798
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|: !<reference> 1852c375-c432-4004-8ce4-a717c213d81d
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_AnimationPlayer_0|: !<reference> 80f10988-2b13-4a5b-a5e5-cb48e74c4b68
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_chair_2_0|: !<reference> e03ba333-3f7d-4e0d-87cc-f46305660ea2
+    _3DSceneImportRoot_0|_Scenes_0|_Scene0_0|_chair_2_0|_RenderMeshVisual_0|: !<reference> c986ec64-73a1-4108-876d-c13ba61bb690
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> c65c84b1-e367-4690-98de-e28fc1abe7d0
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 7e26a195-49fb-4270-a440-cd60db44881e
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings/4dbb690d-ed5a-49b0-b58a-59c454bcf521>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategory
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    PersistentIdGenerationAlgorithm: Legacy
+  CompressionSettings: !<ComplexCompressionSettings/7352bd7e-d344-4675-a8e5-7f99c0689fd4>
+    Presets:
+      None Compression: !<SingleCompressionSettings/c03f72dc-ca5f-460f-875a-e31d0afdb650>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/219d5b34-ef42-4bdd-8332-b2b8d15e9315>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/fe5368e0-7b08-4bb3-8b55-715c3935afaa>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      jpeg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/1d5c1150-3b2f-40b3-9106-eff452ef3872>
+  PrefabRemaps:
+    []
+  Name: Chair
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d5505bf3-27f0-4a59-8689-470b9e8e198b
+  Components:
+    []
+- !<SceneObject/488583ae-69de-4915-af09-f9996cddd7a6>
+  PrefabRemaps:
+    []
+  Name: Scene0
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56d068bd-3dee-471c-a072-f5dd537e3746
+  Components:
+    - !<own> 61aeef34-590a-41a8-97c2-c8cd0ba0aac9
+- !<SceneObject/56d068bd-3dee-471c-a072-f5dd537e3746>
+  PrefabRemaps:
+    []
+  Name: chair_2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d6f5b05b-b417-4471-a9fa-12602fde19f2
+- !<AnimationPlayer/61aeef34-590a-41a8-97c2-c8cd0ba0aac9>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    []
+- !<ObjectPrefabAssetData/7e26a195-49fb-4270-a440-cd60db44881e>
+  SourceRemaps:
+    - 1852c375-c432-4004-8ce4-a717c213d81d: 488583ae-69de-4915-af09-f9996cddd7a6
+    - 35aaa6dd-943a-449d-9bc9-599a193d540e: 61345f7c-948d-4665-b38f-b5a051b32d64
+    - 80f10988-2b13-4a5b-a5e5-cb48e74c4b68: 61aeef34-590a-41a8-97c2-c8cd0ba0aac9
+    - 9644367b-d714-4d21-b4eb-df0787f19798: d5505bf3-27f0-4a59-8689-470b9e8e198b
+    - c986ec64-73a1-4108-876d-c13ba61bb690: d6f5b05b-b417-4471-a9fa-12602fde19f2
+    - cfc3d488-d1c1-4986-a8f2-65d00ae44a44: 1d5c1150-3b2f-40b3-9106-eff452ef3872
+    - e03ba333-3f7d-4e0d-87cc-f46305660ea2: 56d068bd-3dee-471c-a072-f5dd537e3746
+  SourceState: !<own> c3bebf86-f477-44a1-b7e5-3638854d4d84
+- !<ObjectPrefab/c3bebf86-f477-44a1-b7e5-3638854d4d84>
+  PackagePath: ""
+  objects:
+    - !<own> 1d5c1150-3b2f-40b3-9106-eff452ef3872
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/d5505bf3-27f0-4a59-8689-470b9e8e198b>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 488583ae-69de-4915-af09-f9996cddd7a6
+  Components:
+    []
+- !<RenderMeshVisual/d6f5b05b-b417-4471-a9fa-12602fde19f2>
+  PrefabRemaps:
+    []
+  Name: chair_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> e1a4ba2d-d059-4d30-a0b5-161b42fa5b95
+  Mesh: !<reference> f33941e2-b82f-404d-88e7-55b1c7667d15
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
